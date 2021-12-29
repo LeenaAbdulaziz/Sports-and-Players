@@ -67,16 +67,24 @@
 				1291248D277B2BEE005408A2 /* AppDelegate.swift */,
 				1291248F277B2BEE005408A2 /* SceneDelegate.swift */,
 				12912493277B2BEE005408A2 /* Main.storyboard */,
-				129124A1277B2C8C005408A2 /* SportsTableViewController.swift */,
-				129124A5277B2E0B005408A2 /* SportsTableViewCell.swift */,
+				129124AC277C7117005408A2 /* Controllers */,
 				129124A7277B2E47005408A2 /* SportsAndPlayersDelegate.swift */,
-				129124A3277B2D43005408A2 /* PlayersTableViewController.swift */,
 				129124A9277B2EF6005408A2 /* SportsAndPlayers.xcdatamodeld */,
 				12912496277B2BF0005408A2 /* Assets.xcassets */,
 				12912498277B2BF0005408A2 /* LaunchScreen.storyboard */,
 				1291249B277B2BF0005408A2 /* Info.plist */,
 			);
 			path = "Sports and Players";
+			sourceTree = "<group>";
+		};
+		129124AC277C7117005408A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				129124A5277B2E0B005408A2 /* SportsTableViewCell.swift */,
+				129124A1277B2C8C005408A2 /* SportsTableViewController.swift */,
+				129124A3277B2D43005408A2 /* PlayersTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

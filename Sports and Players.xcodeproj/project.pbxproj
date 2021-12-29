@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		1291248E277B2BEE005408A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291248D277B2BEE005408A2 /* AppDelegate.swift */; };
 		12912490277B2BEE005408A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291248F277B2BEE005408A2 /* SceneDelegate.swift */; };
-		12912492277B2BEE005408A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12912491277B2BEE005408A2 /* ViewController.swift */; };
 		12912495277B2BEE005408A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12912493277B2BEE005408A2 /* Main.storyboard */; };
 		12912497277B2BF0005408A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12912496277B2BF0005408A2 /* Assets.xcassets */; };
 		1291249A277B2BF0005408A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12912498277B2BF0005408A2 /* LaunchScreen.storyboard */; };
+		129124A2277B2C8D005408A2 /* SportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129124A1277B2C8C005408A2 /* SportsTableViewController.swift */; };
+		129124A4277B2D43005408A2 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129124A3277B2D43005408A2 /* PlayersTableViewController.swift */; };
+		129124A6277B2E0B005408A2 /* SportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129124A5277B2E0B005408A2 /* SportsTableViewCell.swift */; };
+		129124A8277B2E47005408A2 /* SportsAndPlayersDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129124A7277B2E47005408A2 /* SportsAndPlayersDelegate.swift */; };
+		129124AB277B2EF6005408A2 /* SportsAndPlayers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 129124A9277B2EF6005408A2 /* SportsAndPlayers.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1291248A277B2BEE005408A2 /* Sports and Players.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sports and Players.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1291248D277B2BEE005408A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1291248F277B2BEE005408A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12912491277B2BEE005408A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12912494277B2BEE005408A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12912496277B2BF0005408A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12912499277B2BF0005408A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1291249B277B2BF0005408A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129124A1277B2C8C005408A2 /* SportsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewController.swift; sourceTree = "<group>"; };
+		129124A3277B2D43005408A2 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		129124A5277B2E0B005408A2 /* SportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewCell.swift; sourceTree = "<group>"; };
+		129124A7277B2E47005408A2 /* SportsAndPlayersDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAndPlayersDelegate.swift; sourceTree = "<group>"; };
+		129124AA277B2EF6005408A2 /* SportsAndPlayers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsAndPlayers.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				1291248D277B2BEE005408A2 /* AppDelegate.swift */,
 				1291248F277B2BEE005408A2 /* SceneDelegate.swift */,
-				12912491277B2BEE005408A2 /* ViewController.swift */,
 				12912493277B2BEE005408A2 /* Main.storyboard */,
+				129124A1277B2C8C005408A2 /* SportsTableViewController.swift */,
+				129124A5277B2E0B005408A2 /* SportsTableViewCell.swift */,
+				129124A7277B2E47005408A2 /* SportsAndPlayersDelegate.swift */,
+				129124A3277B2D43005408A2 /* PlayersTableViewController.swift */,
+				129124A9277B2EF6005408A2 /* SportsAndPlayers.xcdatamodeld */,
 				12912496277B2BF0005408A2 /* Assets.xcassets */,
 				12912498277B2BF0005408A2 /* LaunchScreen.storyboard */,
 				1291249B277B2BF0005408A2 /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12912492277B2BEE005408A2 /* ViewController.swift in Sources */,
+				129124A6277B2E0B005408A2 /* SportsTableViewCell.swift in Sources */,
+				129124A2277B2C8D005408A2 /* SportsTableViewController.swift in Sources */,
+				129124AB277B2EF6005408A2 /* SportsAndPlayers.xcdatamodeld in Sources */,
 				1291248E277B2BEE005408A2 /* AppDelegate.swift in Sources */,
 				12912490277B2BEE005408A2 /* SceneDelegate.swift in Sources */,
+				129124A8277B2E47005408A2 /* SportsAndPlayersDelegate.swift in Sources */,
+				129124A4277B2D43005408A2 /* PlayersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +310,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +338,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +376,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		129124A9277B2EF6005408A2 /* SportsAndPlayers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				129124AA277B2EF6005408A2 /* SportsAndPlayers.xcdatamodel */,
+			);
+			currentVersion = 129124AA277B2EF6005408A2 /* SportsAndPlayers.xcdatamodel */;
+			path = SportsAndPlayers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 12912482277B2BED005408A2 /* Project object */;
 }
